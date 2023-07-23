@@ -1,6 +1,5 @@
 """Score_menu"""
 
-
 def main():
     """Main function"""
     MINIMUM = 0
