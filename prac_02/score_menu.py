@@ -1,4 +1,8 @@
+"""Score_menu"""
+
+
 def main():
+    """Main function"""
     MINIMUM = 0
     MAXIMUM = 100
     PASSABLE = 50
@@ -22,13 +26,16 @@ def main():
         choice = input(">>> ").upper()
     print("Thank you.")
 
+
 def show_stars(score):
+    """Translate the score by *"""
     for i in range(0, score):
         print("*", end="")
         i += 1
 
 
 def get_result(EXCELLENT, PASSABLE, score):
+    """Calculate the result by score"""
     if score < PASSABLE:
         return "Bad"
     elif score <= EXCELLENT:
@@ -38,6 +45,7 @@ def get_result(EXCELLENT, PASSABLE, score):
 
 
 def get_score(MAXIMUM, MINIMUM):
+    """Get the password and check is it valid"""
     score = int(input("Enter score: "))
     while score < MINIMUM or score > MAXIMUM:
         score = int(input("Enter score: "))
