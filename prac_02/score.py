@@ -1,5 +1,4 @@
 """Score"""
-
 import random
 
 
