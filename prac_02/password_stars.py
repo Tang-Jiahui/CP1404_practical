@@ -1,5 +1,6 @@
 """Password_stars"""
 
+
 def main():
     """Main function"""
     MIN_NAME = 6
