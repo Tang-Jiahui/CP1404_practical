@@ -1,5 +1,6 @@
 """Temperatures"""
 
+
 def main():
     """Main function"""
     MENU = """C - Convert Celsius to Fahrenheit
