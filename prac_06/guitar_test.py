@@ -1,8 +1,15 @@
+"""
+Word Occurrences
+Estimate: 10 minutes
+Actual:   10 minutes
+"""
+
 from prac_06.guitar import Guitar
 THIS_YEAR = 2023
 
 
 def main():
+    """test the guitar program"""
     guitar = Guitar("Gibson L-5 CES", 1923, 10000)
     another = Guitar("Another Guitar", 2013, 10000)
     print(f"{guitar.name} get_age() - Expected {100}. Got {guitar.get_age()}")

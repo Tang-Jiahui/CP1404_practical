@@ -4,6 +4,12 @@ Note that the import has a folder (module) in it.
 This is why we name our folders with no spaces or capitals, as valid module names.
 """
 
+"""
+Word Occurrences
+Estimate: 10 minutes
+Actual:   20 minutes
+"""
+
 from prac_06.car import Car
 
 
