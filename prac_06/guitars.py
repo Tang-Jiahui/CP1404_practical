@@ -1,4 +1,5 @@
 from prac_06.guitar import Guitar
+
 THIS_YEAR = 2023
 
 guitars = []
@@ -16,6 +17,6 @@ while name != "":
     print(guitars[2].name)
     name = input("Name: ")
 
-
-for i in range(0,len(guitars)):
-    print(f"Guitar {i+1}: {guitars[i].name:>20} ({guitars[i].year}), worth ${guitars[i].cost:10,.2f}{guitars[i].is_vintage()}")
+for i in range(0, len(guitars)):
+    print(
+        f"Guitar {i + 1}: {guitars[i].name:>20} ({guitars[i].year}), worth ${guitars[i].cost:10,.2f}{guitars[i].is_vintage()}")
