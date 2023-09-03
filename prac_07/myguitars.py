@@ -2,6 +2,7 @@ from guitar import Guitar
 
 
 def main():
+    """main function"""
     guitars = []
     in_file = open('guitars.csv', 'r')
     for line in in_file.readlines():
