@@ -1,5 +1,5 @@
-import csv
 from guitar import Guitar
+
 
 def main():
     guitars = []
@@ -16,16 +16,14 @@ def main():
     for sorted_guitar in sorted_guitars:
         print(sorted_guitar)
 
-    for i in range (0, len(sorted_guitars)):
+    for i in range(0, len(sorted_guitars)):
         sorted_guitars[i] = str(sorted_guitars[i])
         sorted_guitar_list.append(sorted_guitars[i])
     new_guitar_file = open("guitars.csv", "w")
-    for line in range (0, len(sorted_guitar_list)):
-
+    for line in range(0, len(sorted_guitar_list)):
         new_guitar_file.writelines(sorted_guitar_list[line])
         new_guitar_file.writelines("\n")
     new_guitar_file.close()
-
 
 
 if __name__ == '__main__':
